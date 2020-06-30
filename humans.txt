@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Joseph D'Anna -- Creator
+
+# THANKS
+
+    Mom & Dad -- for everything
+    Ben J & Luke P -- for advice and proof reading
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
+    Apache Server Configs, Modernizr, Normalize.css

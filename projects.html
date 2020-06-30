@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="flex-col justify-center align-center">
+
+  <header class="flex-row justify-center">
+    <h1>Joseph D'Anna</h1>
+    <nav id="dropdown-nav" class="flex-col">
+      <button class="dropdown-btn"><img src="img/nav_menu_icon.png" alt="Menu"></button>
+      <ul class="dropdown-content" style="display: none;">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li class="dropdown-nav-line"></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li class="dropdown-nav-line"></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li class="dropdown-nav-line"></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="nav-bar" class="flex-col justify-center">
+      <ul class="flex-row justify-center">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <section class="flex-row justify-center dropshadow">
+    <div class="flex-col justify-center align-center">
+      <h3 class="project-title">My Resume (this website)</h3>
+      <p class="project-languages"><i>HTML, CSS, JavaScript</i></p>
+      <ul class="project-description flex-col justify-center">
+        <li>Mobile first, responsive design</li>
+        <li>Custom CSS styles</li>
+      </ul>
+      <div class="img-container">
+        <a href="https://github.com/jodyanna/resume"><img src="img/git_hub.png" alt="GitHub"></a>
+        <div class="text-over-img"><a href="https://github.com/jodyanna/resume">github.com/jodyanna/resume</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="flex-row justify-center dropshadow">
+    <div class="flex-col container justify-center align-center">
+      <h3 class="project-title">Algorithms</h3>
+      <p class="project-languages"><i>Python</i></p>
+      <ul class="project-description flex-col justify-center">
+        <li>An ongoing project to test time complexity of different algorithms</li>
+        <li>Currently tests several sorting algorithms on integer arrays</li>
+      </ul>
+      <div class="img-container">
+        <a href="https://github.com/jodyanna/algorithms"><img src="img/git_hub.png" alt="GitHub"></a>
+        <div class="text-over-img"><a href="https://github.com/jodyanna/algorithms">github.com/jodyanna/algorithms</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="flex-row justify-center dropshadow">
+    <div class="flex-col container justify-center align-center">
+      <h3 class="project-title">Leetcode</h3>
+      <p class="project-languages"><i>Python</i></p>
+      <ul class="project-description flex-col justify-center">
+        <li>An ongoing project to complete Leetcode.com challenges</li>
+      </ul>
+      <div class="img-container">
+        <a href="https://github.com/jodyanna/leetcode"><img src="img/git_hub.png" alt="GitHub"></a>
+        <div class="text-over-img"><a href="https://github.com/jodyanna/leetcode">github.com/jodyanna/leetcode</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="flex-row justify-center dropshadow">
+    <div class="flex-col container justify-center align-center">
+      <h3 class="project-title">GFL Wiki Scraper</h3>
+      <p class="project-languages"><i>HTML, Python</i></p>
+      <ul class="project-description flex-col justify-center">
+        <li>Web scraper using Beautiful Soup 4 and Requests</li>
+        <li>Parses HTML into JSON object then writes to file</li>
+      </ul>
+      <div class="img-container">
+        <a href="https://github.com/jodyanna/gfl_wiki_scraper"><img src="img/git_hub.png" alt="GitHub"></a>
+        <div class="text-over-img"><a href="https://github.com/jodyanna/gfl_wiki_scraper">github.com/jodyanna/gfl_wiki_scraper</a></div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <p><i>"Personally, I rather look forward to a computer program winning the world chess championship. Humanity needs
+      a lesson in humility." - Richard Dawkins</i></p>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
