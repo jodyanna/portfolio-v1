@@ -47,10 +47,12 @@ a {
 
 a:link, a:visited, a:active {
   color: dimgray;
+  text-decoration: none;
 }
 
 a:hover {
   color: black;
+  cursor: pointer;
 }
 
 body {

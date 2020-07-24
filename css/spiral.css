@@ -13,6 +13,16 @@ all range slider containers = slide-container
 
 */
 
+body {
+  display: flex;
+  display: -webkit-flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
 #spiral-designs {
     display: flex;
     display: -webkit-flex;
