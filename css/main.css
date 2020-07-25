@@ -157,9 +157,19 @@ nav#dropdown-nav {
 }
 
 button.dropdown-btn {
+  display: flex;
+  display: -webkit-flex;
+
   background-color: dimgray;
   cursor: pointer;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+i.material-icons {
+  font-size: 40px;
+  color: #ffffff;
 }
 
 .dropdown-content {
